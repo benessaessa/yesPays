@@ -1,7 +1,7 @@
 import React from "react";
 import { Breadcrumb, BreadcrumbItem } from "reactstrap";
-import Products from "./Products";
-const Content = () => {
+import Products from './../../components/Products';
+const Home = () => {
   return (
     <div>
       <div className="container pt-3">
@@ -34,4 +34,4 @@ const Content = () => {
   );
 };
 
-export default Content;
+export default Home;

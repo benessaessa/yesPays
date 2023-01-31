@@ -27,13 +27,13 @@ const Footer = () => {
                         </form>
                         <div className='pt-3 d-flex justify-content-between'>
                             <div>
-                                <Link to='/yespays/about' className='nav-link'>About US</Link>
-                                <Link to='/yespays/about' className='nav-link'>Contact US</Link>
-                                <Link to='/yespays/about' className='nav-link'>Track Order</Link>
-                                <Link to='/yespays/about' className='nav-link'>Terms & Conditions </Link>
-                                <Link to='/yespays/about' className='nav-link'>Privacy Policy </Link>
-                                <Link to='/yespays/about' className='nav-link'> Sell with Us</Link>
-                                <Link to='/yespays/about' className='nav-link'> Shipping and Returns</Link>
+                                <Link to='/about' className='nav-link'>About US</Link>
+                                <Link to='/about' className='nav-link'>Contact US</Link>
+                                <Link to='/about' className='nav-link'>Track Order</Link>
+                                <Link to='/about' className='nav-link'>Terms & Conditions </Link>
+                                <Link to='/about' className='nav-link'>Privacy Policy </Link>
+                                <Link to='/about' className='nav-link'> Sell with Us</Link>
+                                <Link to='/about' className='nav-link'> Shipping and Returns</Link>
                             </div>
                             <div className='social_images'>
                                 <CardText tag="p">

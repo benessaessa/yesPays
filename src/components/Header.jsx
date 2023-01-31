@@ -19,7 +19,7 @@ const Header = () => {
                   <button className="btn me-2">
                     <i className="fa fa-bars fa-lg"></i>
                   </button>
-                  <Link to="/yespays" className="pt-1">
+                  <Link to="/home" className="pt-1">
                     <img src={imgLogo} />
                   </Link>
                 </div>

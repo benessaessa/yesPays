@@ -3,18 +3,24 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import About from "./components/About";
-import Content from "./components/Content";
+import Home from "./Pages/Home";
+import About from './Pages/About';
+import Contact from './Pages/Contact/index';
+import Orders from './Pages/Orders/index';
+import Store from './Pages/Store/index';
 function App() {
   return (
     <Router>
       <div className="App">
         <Header />
         <Routes>
-          <Route path="/yespays/about" element={<About />} />
-          <Route path="/yespays" element={<Content />} />
-          <Route path="/" element={<Content />} />
-          <Route path="*" element={<Content />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/order" element={<Orders />} />
+          <Route path="/store" element={<Store />} />
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<Home />} />
         </Routes>
         <Footer />
       </div>
