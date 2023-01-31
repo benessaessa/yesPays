@@ -4,11 +4,6 @@ const About = () => {
         <React.Fragment>
             <div className='container py-2'>
                 <h1>About Us</h1>
-                <h1>About Us</h1>
-                <h1>About Us</h1>
-                <h1>About Us</h1>
-                <h1>About Us</h1>
-                <h1>About Us</h1>
             </div>
         </React.Fragment>
      );
