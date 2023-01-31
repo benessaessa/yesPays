@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import { Col, Container, Nav, NavItem, NavLink, Row } from "reactstrap";
+import { Col, Container, Nav, NavItem, Row } from "reactstrap";
 import imgLogo from "../images/brand-logo-black.svg";
 import cartImage from "../images/cart.png";
 import mapImage from "../images/map.png";
@@ -19,7 +19,7 @@ const Header = () => {
                   <button className="btn me-2">
                     <i className="fa fa-bars fa-lg"></i>
                   </button>
-                  <Link to="/home" className="pt-1">
+                  <Link to="/yespays" className="pt-1">
                     <img src={imgLogo} />
                   </Link>
                 </div>
