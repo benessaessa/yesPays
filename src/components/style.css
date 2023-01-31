@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.font-size-12{
+    font-size: 12px;
+}
+.font-size-13{
+    font-size: 13px;
+}
+.font-size-14{
+    font-size: 14px;
+}
+.bg-primary{
+    background-color: #fff100 !important;
+}
+.bg-secondary{
+    background-color: #3c3c3b !important;
+}
+.navMenu .nav-link img{
+    width: 20px;
+    margin-right: 0.2rem;
+}
+.navMenu .nav-link{
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+.navCollections .nav-link{
+    color: white;
+}
+.navCollections .nav-link.active{
+    color: #f50c65;
+}
+.inputSearch input[type=text] {
+    background-color: white;
+    background-image: url("../images/search.png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    padding-top: 0.5rem;
+    border-radius: 25px;
+}
+.cardProduct{
+    min-width: 260px;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.cardProduct .imgProduct{
+    width: 100%;
+    height: 220px;
+    border-radius: 18px;
+    object-fit: cover;
+}
+
+.cardProduct .logoProduct{
+    width: 60px;
+    height: 50px;
+    /* object-fit: cover; */
+}
+.btnGroup .btn{
+    margin-right: 1rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    font-size: 12px;
+    font-weight: bold;
+    overflow: hidden;
+    color: #542e90 !important;
+    border-radius: 50% !important;
+}
+.btnGroup .btn img{
+ object-fit: cover;
+ width: inherit;
+}
+.btnGroup .btn.active , .btnGroup .btn:hover{
+    background-color: #ececec;
+    color: black;
+}
+.text-price{
+    color: #542e90;
+}
+.textStar{
+    color: #ffb900;
+}
+.bgStar{
+    background-color: #ffb900;
+}
+.footer{
+    color: white;
+}
+.footer p{
+    font-size: 14px;
+}
+.footer .nav-link{
+    padding-top: 0.5rem;
+    font-size: 14px;
+}
+.social_images img{
+    width: 30px;
+    height: 30px;
+}
+.social_images a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 0.3rem;
+}
+.formSubscribe .input-group input{
+    border-radius: 25px 0 0 25px;
+}
+.formSubscribe .input-group-text {
+    border-radius: 0 25px 25px 0;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px  #e7e9eb; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #542e90; 
+    border-radius: 10px;
+  }

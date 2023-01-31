@@ -1,0 +1,76 @@
+
+[
+    {
+        "id": 1,
+        "product_image":"https://api.yeshtery.com/v1/yeshtery/files/31/h00866-5-footwear-photography-front-lateral-top-view-white.jpg?width=258&height=254",
+        "name" : "Shose",
+        "first_price" : "450",
+        "second_price" : "600",
+        "offer" : "10",
+        "owner": "Genena Mall"
+    },
+    {
+        "id": 2,
+        "product_image":"https://api.yeshtery.com/v1/yeshtery/files/67/20429-2-362cbbc3fadc41b8bdd9cf20d4d9c54a.jpg?width=258&height=254",
+        "name" : "Women shirt",
+        "first_price" : "50",
+        "second_price" : "100",
+        "offer" : "50",
+        "owner": "Modern"
+    },
+    {
+        "id": 3,
+        "product_image":"https://api.yeshtery.com/v1/yeshtery/files/67/20413-1.jpg?width=258&height=254",
+        "name" : "women vest",
+        "first_price" : "250",
+        "second_price" : "350",
+        "offer" : "50",
+        "owner": "Mens club"
+    },
+    {
+        "id": 4,
+        "product_image":"https://api.yeshtery.com/v1/yeshtery/files/31/screenshot-2022-10-17-at-9.11.21-pm-2821ae82d27943119d5dea98304c9604.png?width=258&height=254",
+        "name" : "Lorem Text",
+        "first_price" : "50",
+        "second_price" : "100",
+        "offer" : "50",
+        "owner": "Genena Mall"
+    },
+    {
+        "id": 5,
+        "product_image":"https://api.yeshtery.com/v1/yeshtery/files/31/200931235-2-removebg-preview.png?width=258&height=254",
+        "name" : "Lorem Text",
+        "first_price" : "50",
+        "second_price" : "100",
+        "offer" : "50",
+        "owner": "Genena Mall"
+    },
+    {
+        "id": 6,
+        "product_image":"https://api.yeshtery.com/v1/yeshtery/files/74/crocs-204592-lite-ride-clog-smoke-pearl-white-06j-4-600.jpg?width=258&height=254",
+        "name" : "Lorem Text",
+        "first_price" : "50",
+        "second_price" : "100",
+        "offer" : "50",
+        "owner": "Genena Mall"
+    },
+    {
+        "id": 7,
+        "product_image":"https://api.yeshtery.com/v1/yeshtery/files/31/hb9178-1-apparel-photography-front-view-white-6537dec8dd904be6a93f1bb333f6c574.jpg?width=258&height=254",
+        "name" : "Lorem Text",
+        "first_price" : "50",
+        "second_price" : "100",
+        "offer" : "50",
+        "owner": "Genena Mall"
+    },
+    {
+        "id": 8,
+        "product_image":"https://api.yeshtery.com/v1/yeshtery/files/31/gr0510-2-apparel-photography-front-center-view-white-2da6bed43c5f4156b81c3d144ce10a49.jpg?width=258&height=254",
+        "name" : "Lorem Text",
+        "first_price" : "50",
+        "second_price" : "100",
+        "offer" : "50",
+        "owner": "Genena Mall"
+    }
+    
+]
