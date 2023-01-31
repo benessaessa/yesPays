@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/yesPays/static/css/main.7b1715d6.css",
-    "main.js": "/yesPays/static/js/main.8f172bec.js",
+    "main.js": "/yesPays/static/js/main.18be19b2.js",
     "static/js/787.426d9060.chunk.js": "/yesPays/static/js/787.426d9060.chunk.js",
     "static/media/product5.png": "/yesPays/static/media/product5.6035e6b6c81aaac92920.png",
     "static/media/product1.png": "/yesPays/static/media/product1.3b21896d444a8791238e.png",
@@ -10,11 +10,11 @@
     "index.html": "/yesPays/index.html",
     "static/media/send.svg": "/yesPays/static/media/send.54305e6eb095364d05d978a56e7a33f6.svg",
     "main.7b1715d6.css.map": "/yesPays/static/css/main.7b1715d6.css.map",
-    "main.8f172bec.js.map": "/yesPays/static/js/main.8f172bec.js.map",
+    "main.18be19b2.js.map": "/yesPays/static/js/main.18be19b2.js.map",
     "787.426d9060.chunk.js.map": "/yesPays/static/js/787.426d9060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b1715d6.css",
-    "static/js/main.8f172bec.js"
+    "static/js/main.18be19b2.js"
   ]
 }
