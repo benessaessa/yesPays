@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/yesPays/static/css/main.e6880cf4.css",
-    "main.js": "/yesPays/static/js/main.c2bb0c62.js",
-    "static/js/787.426d9060.chunk.js": "/yesPays/static/js/787.426d9060.chunk.js",
-    "static/media/product5.png": "/yesPays/static/media/product5.6035e6b6c81aaac92920.png",
-    "static/media/brand-logo-yellow.svg": "/yesPays/static/media/brand-logo-yellow.83fa84465a59fb3b307c809ee4b13fe1.svg",
-    "static/media/brand-logo-black.svg": "/yesPays/static/media/brand-logo-black.fd943939913025cdcbb85274a343ddcf.svg",
-    "index.html": "/yesPays/index.html",
-    "static/media/send.svg": "/yesPays/static/media/send.54305e6eb095364d05d978a56e7a33f6.svg",
-    "main.e6880cf4.css.map": "/yesPays/static/css/main.e6880cf4.css.map",
-    "main.c2bb0c62.js.map": "/yesPays/static/js/main.c2bb0c62.js.map",
-    "787.426d9060.chunk.js.map": "/yesPays/static/js/787.426d9060.chunk.js.map"
+    "main.css": "./static/css/main.e6880cf4.css",
+    "main.js": "./static/js/main.66f46055.js",
+    "static/js/787.426d9060.chunk.js": "./static/js/787.426d9060.chunk.js",
+    "static/media/product5.png": "./static/media/product5.6035e6b6c81aaac92920.png",
+    "static/media/brand-logo-yellow.svg": "./static/media/brand-logo-yellow.83fa84465a59fb3b307c809ee4b13fe1.svg",
+    "static/media/brand-logo-black.svg": "./static/media/brand-logo-black.fd943939913025cdcbb85274a343ddcf.svg",
+    "index.html": "./index.html",
+    "static/media/send.svg": "./static/media/send.54305e6eb095364d05d978a56e7a33f6.svg",
+    "main.e6880cf4.css.map": "./static/css/main.e6880cf4.css.map",
+    "main.66f46055.js.map": "./static/js/main.66f46055.js.map",
+    "787.426d9060.chunk.js.map": "./static/js/787.426d9060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6880cf4.css",
-    "static/js/main.c2bb0c62.js"
+    "static/js/main.66f46055.js"
   ]
 }
