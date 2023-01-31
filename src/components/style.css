@@ -11,6 +11,15 @@ body{
 .font-size-14{
     font-size: 14px;
 }
+.height-47{
+    height: 47px;
+}
+.countSection{
+    background-color: #ececec;
+    width: 250px;
+    padding: 0.1rem 0.6rem 0.3rem 0.6rem;
+    border-radius: 25px;
+}
 .bg-primary{
     background-color: #fff100 !important;
 }
@@ -85,6 +94,12 @@ body{
 }
 .bgStar{
     background-color: #ffb900;
+}
+.imgList{
+    height: 120px;
+    width: 110px;
+    object-fit: cover;
+    margin-right: 0.5rem;
 }
 .footer{
     color: white;

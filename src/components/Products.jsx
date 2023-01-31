@@ -6,7 +6,9 @@ import CardItem from "./CardItem";
 import imageProduct from "../images/product5.png";
 import logoImage from "../images/adidas.png";
 import imgColor from "../images/product5.png";
+import imglist1 from "../images/product1.png";
 import imgColorSecond from "../images/shirt.jpg";
+import Cart from "./Cart";
 const Products = () => {
   const [items, setItems] = useState(data);
   const [rSelected, setRSelected] = useState(null);
@@ -19,34 +21,44 @@ const Products = () => {
         <Row className="pt-3 pb-5">
           <Col lg="6">
             <img src={imageProduct} className="img-fluid rounded-3 pb-3" />
+            <div className="overflow-auto">
+              <div className="d-flex">
+                <img src={imglist1} className="imgList"/>
+                <img src={imglist1} className="imgList"/>
+                <img src={imglist1} className="imgList"/>
+                <img src={imglist1} className="imgList"/>
+              </div>
+            </div>
           </Col>
-          <Col lg="6" className="text-center text-md-start">
-            <img src={logoImage} className="img-fluid rounded-3" />
-            <CardText tag="h6" className="pt-2 fw-bold">
-              Adidas black t-shirt lorem ipsum dolor sit <br />
-              amet,consectetuer adipiscing elit.
-            </CardText>
-            <CardText className="mb-0 text-muted" tag="p">
-              Men
-            </CardText>
-            <CardText tag="p" className="mb-1 pt-2 font-size-14">
-              <i className="fas fa-star textStar"></i>
-              <i className="fas fa-star textStar"></i>
-              <i className="fas fa-star textStar"></i>
-              <i className="fas fa-star textStar"></i>
-              <i className="fas fa-star-half-alt textStar"></i>
-              <span className="px-3">4.5 of 5</span>
-              <span className="text-muted fw-bold">22 Rates</span>
-            </CardText>
-            <CardText tag="p" className="pt-2 border-bottom pb-3">
-              <span className="mb-0 text-price pe-3 display-6 fw-bolder">
-                9,999 <span className="font-size-14">LE</span>
-              </span>
-              <del className="mb-0 text-muted">150 LE</del>
-              <span tag="p" className="badge bgStar mb-0 ms-2">
-                50% off
-              </span>
-            </CardText>
+          <Col lg="6">
+            <div className="text-center text-md-start pb-3">
+              <img src={logoImage} className="img-fluid rounded-3" />
+              <CardText tag="h6" className="pt-2 fw-bold">
+                Adidas black t-shirt lorem ipsum dolor sit <br />
+                amet,consectetuer adipiscing elit.
+              </CardText>
+              <CardText className="mb-0 text-muted" tag="p">
+                Men
+              </CardText>
+              <CardText tag="p" className="mb-1 pt-2 font-size-14">
+                <i className="fas fa-star textStar"></i>
+                <i className="fas fa-star textStar"></i>
+                <i className="fas fa-star textStar"></i>
+                <i className="fas fa-star textStar"></i>
+                <i className="fas fa-star-half-alt textStar"></i>
+                <span className="px-3">4.5 of 5</span>
+                <span className="text-muted fw-bold">22 Rates</span>
+              </CardText>
+              <CardText tag="p" className="pt-2 border-bottom pb-3">
+                <span className="mb-0 text-price pe-3 display-6 fw-bolder">
+                  9,999 <span className="font-size-14">LE</span>
+                </span>
+                <del className="mb-0 text-muted">150 LE</del>
+                <span tag="p" className="badge bgStar mb-0 ms-2">
+                  50% off
+                </span>
+              </CardText>
+            </div>
             <CardText tag="h5" className="fw-bold">
               Size
             </CardText>
@@ -97,7 +109,7 @@ const Products = () => {
             <CardText tag="h5" className="fw-bold pt-3 border-top">
               Color
             </CardText>
-            <ButtonGroup className="btnGroup">
+            <ButtonGroup className="btnGroup pb-3">
               <Button
                 color="primary"
                 outline
@@ -115,6 +127,7 @@ const Products = () => {
                 <img src={imgColorSecond} className=""/>
               </Button>
             </ButtonGroup>
+            <Cart />
           </Col>
         </Row>
         <CardText tag="h4" className="text-price fw-bolder mb-1">

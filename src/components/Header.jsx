@@ -74,7 +74,8 @@ const Header = () => {
             <Col lg="5" md="6">
               <Nav className="navMenu pt-2 justify-content-lg-end">
                 <NavItem>
-                  <Link className="nav-link" to="/cart">
+                  <Link className="nav-link position-relative" to="/cart">
+                    <span className="badge bg-primary rounded-5 position-absolute top-0 text-black">3</span>
                     <i className="fa fa-shopping-cart pe-2"></i>
                     Cart
                   </Link>
